@@ -33,11 +33,14 @@ function flipThatCoin (result) {
 }
 
 //on click function
-
 $("#heads").on("click", function () {
+    //increment headsCount by one
     headsCount++;
+    //find the span with an id of heads-chosen and replace the html inside of the span with the headsCount 
     $("#heads-chosen").text(headsCount);
+    //find the div with an id of guess and update with the word "heads" in bold.
     $("#guess").html("<b>Heads</b>");
+    //call the flipThatCoin function and pass the value of 0 to it. 
     flipThatCoin(0);
 });
 

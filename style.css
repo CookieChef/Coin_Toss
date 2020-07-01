@@ -1,3 +1,5 @@
-body {
-    background-color: rgba(231, 227, 227, 0.952);
+#coin-image {
+    outline-color: transparent;
+    border-color: transparent;
+
 }

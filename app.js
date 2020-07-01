@@ -1,0 +1,1 @@
+console.log("Toss a coin to your Witcher!");

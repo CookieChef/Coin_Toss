@@ -30,6 +30,8 @@
 }
 .card{
     border-color: transparent;
-
     background-color:transparent;
+}
+#win-lose, #wins, #losses, {
+    text-align: center;
 }

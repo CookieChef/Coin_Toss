@@ -22,13 +22,13 @@ function flipThatCoin (result) {
 
    if(result === randomNumber) {
        wins++;
-       $("#win-lose").html("<h2>Winner!</h2>");
-       $("#wins").html("<h3>" + wins + "</h3>");
+       $("#win-lose").html("<h4>Winner!</h4>");
+       $("#wins").html("<h5>" + wins + "</h5>");
    }
    else {
        losses++;
-       $("#win-lose").html("<h2>Loser!</h2>");
-       $("#losses").html("<h3>" + losses + "</h3>");
+       $("#win-lose").html("<h4>Loser!</h4>");
+       $("#losses").html("<h5>" + losses + "</h5>");
    }
 }
 

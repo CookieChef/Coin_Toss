@@ -15,7 +15,7 @@ function flipThatCoin (result) {
        $("#coin-image").html ("<img src='images/coin_heads.png'/>");
    }
    else {
-       $("#coin-image").html ("<img src='images/coin_tails.png'/");
+       $("#coin-image").html ("<img src='images/coin_tails.png'/>");
    }
 
    //conditions for wins and losses and dom manipulation

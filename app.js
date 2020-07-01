@@ -2,7 +2,7 @@ console.log("Toss a coin to your Witcher!");
 
 //variable declaration
 var headsCount = 0;
-var trailsCount = 0; 
+var tailsCount = 0; 
 var wins = 0;
 var losses = 0;
 
@@ -31,5 +31,21 @@ function flipThatCoin (result) {
        $("#losses").html("<h3>" + losses + "</h3>");
    }
 }
+
+//on click function
+
+$("#heads").on("click", function () {
+    headsCount++;
+    $("#heads-chosen").text(headsCount);
+    $("#guess").html("<b>Heads</b>");
+    flipThatCoin(0);
+});
+
+$("#tails").on("click", function () {
+    tailsCount++;
+    $("#tails-chosen").text(tailsCount);
+    $("#guess").html("<b>Tails</b>");
+    flipThatCoin(1);
+});
 
 

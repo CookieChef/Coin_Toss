@@ -12,10 +12,10 @@ function flipThatCoin (result) {
    var randomNumber = Math.floor(Math.random() * 2);
 
    if (randomNumber === 0) {
-       $("#coin-image").html ("<img src='images/coin_heads.png'/>");
+       $("#coin-image").html ("<img src='images/coin_heads.png' style='width:5rem;'/>");
    }
    else {
-       $("#coin-image").html ("<img src='images/coin_tails.png'/>");
+       $("#coin-image").html ("<img src='images/coin_tails.png' style='width:5rem;'/>");
    }
 
    //conditions for wins and losses and dom manipulation

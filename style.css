@@ -14,7 +14,15 @@
 }
 #heads:hover, #tails:hover  {
     background-color:rgba(92, 102, 71, 0.192);
-    color: white
+    color: white;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
     
+}
+#card {
+    border:2px solid rgb(151, 165, 122);
+    text-align: center;
+}
+#coin-image {
+    width:100%;
+    border-color: transparent;
 }

@@ -6,6 +6,7 @@
     <meta charset="UTF-8">
 
     <title>Coin Flip!</title>
+    <link rel="icon" href="images/coins.png" type="image/x-ixon">
 
     <!--Bootstrap links-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
@@ -39,12 +40,31 @@
         </div>
 
         <br>
-
-        <div> You guessed:<span id="guess"></span></div>
+<div class="card">
+    <div class="card-body" id="card"> You guessed:<span id="guess"></span>
+    
+        <div class="row">
+            <div class="col"></div>
+            <div class="col-sm">
+                <div class="card">
+                    <div class="card-body" id="coin-image"></div>
+                </div>
+            </div>
+            <div class="col"></div>
+        </div>
+    
+    </div>
+    
+       
+    
+</div>
+        
 
         <br>
 
-        <div id="coin-image"></div>
+        
+     
+
         <div id="win-lose"></div>
         <div id="win-loss-tracker"></div>
 

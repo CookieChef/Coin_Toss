@@ -44,6 +44,7 @@ $("#heads").on("click", function () {
     flipThatCoin(0);
 });
 
+//on click function for tails, same logic as heads.
 $("#tails").on("click", function () {
     tailsCount++;
     $("#tails-chosen").text(tailsCount);

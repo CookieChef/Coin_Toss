@@ -18,12 +18,18 @@ function flipThatCoin (result) {
        $("#coin-image").html ("<img src='images/coin_tails.png'/");
    }
 
-   //if results equals to randomNumber do the following:
+   //conditions for wins and losses and dom manipulation
 
    if(result === randomNumber) {
        wins++;
        $("#win-lose").html("<h2>Winner!</h2>");
        $("#wins").html("<h3>" + wins + "</h3>");
    }
-
+   else {
+       losses++;
+       $("#win-lose").html("<h2>Loser!</h2>");
+       $("#losses").html("<h3>" + losses + "</h3>");
+   }
 }
+
+

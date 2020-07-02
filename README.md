@@ -14,7 +14,7 @@ https://www.flaticon.com/ - Icons
 
 ## Links
 
-Go to application: 
+Go to application: https://cookiechef.github.io/Coin_Toss/
 
-Github repository: 
+Github repository: https://github.com/CookieChef/Coin_Toss.git
 

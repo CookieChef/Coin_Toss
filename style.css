@@ -32,7 +32,7 @@
     border-color: transparent;
     background-color:transparent;
 }
-#win-lose, #wins, #losses, #tails-chosen, #heads-chosen {
+#win-lose, #wins, #losses, #tails-chosen, #heads-chosen, #card1{
     text-align: center;
     font-weight: bold;
 }

@@ -18,3 +18,4 @@ Go to application: https://cookiechef.github.io/Coin_Toss/
 
 Github repository: https://github.com/CookieChef/Coin_Toss.git
 
+![Flip a Coin](images/Flip_a_Coin.png)
